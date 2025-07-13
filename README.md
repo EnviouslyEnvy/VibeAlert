@@ -8,3 +8,7 @@ Components planned:
 - Pager Vibrator
 - Recheargeable 9V
 - Step down buck converter
+
+Headers used:
+I2S Driver
+ESP_DSP
