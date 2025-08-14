@@ -1,7 +1,7 @@
-# VibeAlert
+# Viber(ational awareness band)
 Design Project
 
-Other names thought of include: AlertBand, AlertVibe
+Other names thought of include: AlertBand, AlertVibe, VibeAlert
 
 Components planned:
 - Arduino Nano ESP32
