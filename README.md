@@ -1,6 +1,8 @@
-# Viber(ational awareness band)
-Design Project
 [<img src="./1080.jpg" alt="VibeAlert preview" width="600"/>](./1080.jpg)
+
+# Viber(ational awareness band)
+
+Design Project
 
 Other names thought of include: AlertBand, AlertVibe, VibeAlert
 
