@@ -1,11 +1,11 @@
 #include "driver/i2s.h"
-#include "esp_sleep.h"
-#include "driver/rtc_io.h"
-#include "driver/gpio.h"
-#include "esp_wifi.h"
-#include "esp_pm.h"
+// #include "esp_sleep.h"
+// #include "driver/rtc_io.h"
+// #include "driver/gpio.h"
+// #include "esp_wifi.h"
+// #include "esp_pm.h"
 #include "esp_dsp.h"
-#include "esp_log.h"
+// #include "esp_log.h"
 
 // Hardware Configuration
 #define I2S_WS_PIN    6    // Word Select (WS) - D3/GPIO6
@@ -181,13 +181,13 @@ void setCpuFrequencyAndTrack(int freqMhz) {
   }
 }
 
-void setupGPIO() {
-  pinMode(LED_PIN, OUTPUT);
-  digitalWrite(LED_PIN, LOW);
+// void setupGPIO() {
+//   pinMode(LED_PIN, OUTPUT);
+//   digitalWrite(LED_PIN, LOW);
 
-  pinMode(OUTPUT_PIN, OUTPUT);
-  analogWrite(OUTPUT_PIN, 0);
-}
+//   pinMode(OUTPUT_PIN, OUTPUT);
+//   analogWrite(OUTPUT_PIN, 0);
+// }
 
 bool initializeDSP() {
   esp_err_t ret = dsps_fft2r_init_fc32(NULL, FFT_SIZE);
