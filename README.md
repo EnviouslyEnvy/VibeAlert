@@ -6,7 +6,7 @@ Design Project
 
 Other names thought of include: AlertBand, AlertVibe, VibeAlert
 
-Components planned:
+Components Utilized:
 - Arduino Nano ESP32
 - Pager vibrator
 - Recheargeable 9V
@@ -15,6 +15,6 @@ Components planned:
 - 3D-Printed PLA housing
 - EVA foam, mic windscreen, velcro 
 
-Headers used:
-I2S Driver
-ESP_DSP
+Espressif headers used:
+- I2S Driver
+- ESP_DSP
